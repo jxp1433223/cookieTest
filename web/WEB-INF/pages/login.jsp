@@ -1,4 +1,4 @@
-<%--
+ <%--
   Created by IntelliJ IDEA.
   User: Administrator
   Date: 2018/12/10
@@ -14,12 +14,12 @@
     </style>
   </head>
   <body>
-  <form  method="post" id="fm">
+  <form  method="post" id="fm" action="doLogin">
     用户名：<input type="text" name="username" id="uname">
     密码：<input type="password" name="pwd" id="pwd">
-    <input type="button" value="提交" id="btn">
+    <input type="submit" value="提交" id="btn">
   </form>
-  <script src="js/jquery-3.3.1.min.js"></script>
+  <<%--script src="js/jquery-3.3.1.min.js"></script>
   <script>
     $(function () {
         $("#btn").click(function () {
@@ -43,6 +43,6 @@
         })
     })
 
-  </script>
+  </script>--%>
   </body>
 </html>

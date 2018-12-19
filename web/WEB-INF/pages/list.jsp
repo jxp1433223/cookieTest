@@ -27,8 +27,13 @@
     </style>
 </head>
 <body>
+欢迎${user.username}<br>
+    ${lists}
     <table>
-        <thead>
+        <tbody id="tbody">
+        </tbody>
+    </table>
+       <%-- <thead>
             <tr>
                 <th>商品编号</th>
                 <th>商品名称</th>
@@ -39,7 +44,7 @@
             </tr>
         </thead>
         <tbody>
-        <%--tl--%>
+        &lt;%&ndash;tl&ndash;%&gt;
             <c:forEach items="${lists}" var="p">
                 <tr>
                     <td>${p.productId}</td>
@@ -53,7 +58,7 @@
 
         </tbody>
     </table>
-    <a href="add"><input type="button"value="添加"></a>
+    <a href="add"><input type="button"value="添加"></a>--%>
 
 </body>
 </html>
